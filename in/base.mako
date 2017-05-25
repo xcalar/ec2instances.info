@@ -12,11 +12,6 @@
   <body class="ec2instances">
     <div class="page-header">
 
-      <span class="pull-right">
-        <a href="https://twitter.com/share" class="twitter-share-button" data-via="powdahound"></a>
-        <iframe src="https://ghbtns.com/github-btn.html?user=powdahound&repo=ec2instances.info&type=star&count=true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
-      </span>
-
       <%block name="header"/>
 
       <p class="pull-right label label-info">Last Update: ${generated_at}</p>
@@ -59,18 +54,5 @@
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.2.4/js/buttons.print.min.js"></script>
     <script src="/store/store.js" type="text/javascript" charset="utf-8"></script>
     <script src="/default.js" type="text/javascript" charset="utf-8"></script>
-
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
-    <script type="text/javascript">
-    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-    try {
-      var pageTracker = _gat._getTracker("UA-4372467-3");
-      pageTracker._trackPageview();
-    } catch(err) {}
-    </script>
   </body>
 </html>
